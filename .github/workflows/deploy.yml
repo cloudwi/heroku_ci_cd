@@ -17,12 +17,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: bulid backend
-        run: ./gradlew build
-
-      - name: Run ls -al
-        run: ls -al
-
       - name: deploy to heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
