@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class Member {
+public class MemberCloudwi {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +18,7 @@ public class Member {
     @Column
     private String name;
 
-    public Member(MemberDto memberDto) {
+    public MemberCloudwi(MemberDto memberDto) {
         this.name = memberDto.getName();
     }
 
