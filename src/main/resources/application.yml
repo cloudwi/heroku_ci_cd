@@ -47,7 +47,7 @@ spring:
     url: jdbc:${DB_URL}
     username: ${DB_USER}
     password: ${DB_PASSSWORD}
-    driver-class-name:
+    driver-class-name: org.postgresql.Driver
 
   jpa:
     properties:
