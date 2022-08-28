@@ -1,0 +1,1 @@
+web: java -Dspring.profiles.active=local $JAVA_OPTS -jar "target/
