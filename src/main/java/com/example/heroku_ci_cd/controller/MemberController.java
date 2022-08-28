@@ -1,8 +1,8 @@
 package com.example.heroku_ci_cd.controller;
 
-import com.example.demo.dto.MemberDto;
-import com.example.demo.entity.Member;
-import com.example.demo.service.MemberService;
+import com.example.heroku_ci_cd.dto.MemberDto;
+import com.example.heroku_ci_cd.entity.Member;
+import com.example.heroku_ci_cd.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

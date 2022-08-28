@@ -1,6 +1,6 @@
 package com.example.heroku_ci_cd.entity;
 
-import com.example.demo.dto.MemberDto;
+import com.example.heroku_ci_cd.dto.MemberDto;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 

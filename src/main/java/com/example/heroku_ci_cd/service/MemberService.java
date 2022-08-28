@@ -1,8 +1,8 @@
 package com.example.heroku_ci_cd.service;
 
-import com.example.demo.dto.MemberDto;
-import com.example.demo.entity.Member;
-import com.example.demo.repository.MemberRepository;
+import com.example.heroku_ci_cd.dto.MemberDto;
+import com.example.heroku_ci_cd.entity.Member;
+import com.example.heroku_ci_cd.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
