@@ -6,6 +6,9 @@ spring:
         - local
       production:
         - prod
+        -
+server:
+  port: 8080
 
 ---
 #현재 개발 또는 배포 환경을 나타내는 설정
