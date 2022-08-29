@@ -1,1 +1,1 @@
-web: java -Dspring.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar build/libs/heroku_ci_cd-0.0.1-SNAPSHOT.jar
+web: java -Dspring.server.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar build/libs/heroku_ci_cd-0.0.1-SNAPSHOT.jar
