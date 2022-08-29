@@ -21,7 +21,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name:
       #헤로쿠에 배포한다.
       - name: deploy to heroku
         uses: akhileshns/heroku-deploy@v3.12.12
