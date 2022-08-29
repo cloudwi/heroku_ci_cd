@@ -48,7 +48,7 @@ spring:
     #heroku에 설정 값들을 반영하는 것 아래에서 설명 드림
     url: ${DB_URL}
     username: ${DB_USER}
-    password: ${DB_PASSSWORD}
+    password: ${DB_PASSWORD}
     driver-class-name: org.postgresql.Driver
 
   jpa:
