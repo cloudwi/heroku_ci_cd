@@ -8,7 +8,7 @@ spring:
         - prod
 
 server:
-  port: 8080
+  port: ${SPRING_PORT}
 
 ---
 #현재 개발 또는 배포 환경을 나타내는 설정
