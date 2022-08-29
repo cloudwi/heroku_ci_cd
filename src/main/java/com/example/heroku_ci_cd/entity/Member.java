@@ -9,16 +9,17 @@ import javax.persistence.*;
 @Entity
 @NoArgsConstructor
 @AllArgsConstructor
-public class MemberCloudwi {
+public class Member {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "member_id")
     private Long id;
 
-    @Column
+    @Column(name = "member_name")
     private String name;
 
-    public MemberCloudwi(MemberDto memberDto) {
+    public Member(MemberDto memberDto) {
         this.name = memberDto.getName();
     }
 

@@ -1,7 +1,7 @@
 package com.example.heroku_ci_cd.service;
 
 import com.example.heroku_ci_cd.dto.MemberDto;
-import com.example.heroku_ci_cd.entity.MemberCloudwi;
+import com.example.heroku_ci_cd.entity.Member;
 import com.example.heroku_ci_cd.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -18,13 +18,13 @@ public class MemberService {
 
     @Transactional
     public Long saveMember(MemberDto memberDto) {
-        MemberCloudwi member = new MemberCloudwi(memberDto);
+        Member member = new Member(memberDto);
         memberRepository.save(member);
 
         return member.getId();
     }
 
-    public List<MemberCloudwi> getMembers() {
+    public List<Member> getMembers() {
         return memberRepository.findAll();
     }
 

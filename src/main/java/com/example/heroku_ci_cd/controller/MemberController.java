@@ -1,7 +1,7 @@
 package com.example.heroku_ci_cd.controller;
 
 import com.example.heroku_ci_cd.dto.MemberDto;
-import com.example.heroku_ci_cd.entity.MemberCloudwi;
+import com.example.heroku_ci_cd.entity.Member;
 import com.example.heroku_ci_cd.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
@@ -21,7 +21,7 @@ public class MemberController {
     }
 
     @GetMapping
-    public List<MemberCloudwi> getMembers() {
+    public List<Member> getMembers() {
         return memberService.getMembers();
     }
 }
