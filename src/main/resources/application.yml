@@ -6,9 +6,8 @@ spring:
         - local
       production:
         - prod
-
 server:
-  port: ${SPRING_PORT}
+  port: ${PORT}
 
 ---
 #현재 개발 또는 배포 환경을 나타내는 설정
