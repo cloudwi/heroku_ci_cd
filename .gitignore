@@ -36,4 +36,4 @@ out/
 ### VS Code ###
 .vscode/
 
-cloudwi-894c9-firebase-adminsdk-huhts-5196b18b88.json
+src/main/resources/serviceAccountKey.json

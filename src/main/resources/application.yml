@@ -6,8 +6,6 @@ spring:
         - local
       production:
         - prod
-server:
-  port: ${PORT}
 
 ---
 #현재 개발 또는 배포 환경을 나타내는 설정
@@ -46,6 +44,7 @@ spring:
     activate:
       on-profile: prod
 
+
   datasource:
     #heroku에 설정 값들을 반영하는 것 아래에서 설명 드림
     url: ${DB_URL}
@@ -70,3 +69,5 @@ spring:
 logging:
   level:
     org.hibernate.sql: debug
+server:
+  port: ${PORT}
