@@ -14,7 +14,7 @@ import java.io.IOException;
 @Configuration
 @Slf4j
 public class FirebaseInitializer {
-
+    //주영님 너무 잘생겼어
     @Bean
     public FirebaseApp firebaseApp() throws IOException {
         log.info("Initializing Firebase.");
